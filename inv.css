@@ -245,3 +245,17 @@ header ul li a.active {
     max-width: 300px;
   }
 }
+@media(max-width:400px){
+  .container .logo{
+    align-items: center;
+    text-align: center;
+  }
+  .content h2 {
+    font-size: 3em;
+    color: #8a2435;
+  }
+  .content p {
+    font-size: 0.8em;
+    color: #8a2435;
+  }  
+}
