@@ -245,7 +245,7 @@ header ul li a.active {
     max-width: 300px;
   }
 }
-@media(max-width:400px){
+@media(max-width:500px){
   .container .logo{
     align-items: center;
     text-align: center;
