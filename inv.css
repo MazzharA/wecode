@@ -37,8 +37,9 @@ header {
   left: 20px;
   padding: 20px 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
@@ -46,9 +47,6 @@ header {
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 header .logo {
   color: #8a2435;
