@@ -207,7 +207,7 @@ header ul li a.active {
     margin-bottom: 50px;
   }
   .content a {
-    font-size: 1em;
+    font-size: 1.2em;
     padding: 10px 20px;
   }
   @keyframes animate {
@@ -260,9 +260,13 @@ header ul li a.active {
     color: #8a2435;
   }
   .content p {
-    font-size: 0.8em;
+    font-size: 0.9em;
     color: #8a2435;
-  }  
+  }
+  .content a {
+    font-size: 0.9em;
+    padding: 10px 20px;
+  }
 }
 @media(max-width:383px){
   .content h2 {
@@ -270,5 +274,9 @@ header ul li a.active {
     color: #8a2435;
     align-items: center;
     text-align: center;
+  }
+  .content a {
+    font-size: 0.8em;
+    padding: 10px 20px;
   }
 }
