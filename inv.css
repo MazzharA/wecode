@@ -245,7 +245,7 @@ header ul li a.active {
     max-width: 300px;
   }
 }
-@media(max-width:494px){
+@media(max-width:500px){
   .container .logo{
     align-items: center;
     text-align: center;
@@ -253,11 +253,17 @@ header ul li a.active {
   .content h2 {
     font-size: 3em;
     color: #8a2435;
-    align-items: center;
-    text-align: center;
   }
   .content p {
     font-size: 0.8em;
     color: #8a2435;
   }  
+}
+@media(max-width:383px){
+  .content h2 {
+    font-size: 3em;
+    color: #8a2435;
+    align-items: center;
+    text-align: center;
+  }
 }
