@@ -253,6 +253,8 @@ header ul li a.active {
   .content h2 {
     font-size: 3em;
     color: #8a2435;
+    align-items: center;
+    text-align: center;
   }
   .content p {
     font-size: 0.8em;
