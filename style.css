@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(img/bg.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 50px;
+}
+.container {
+  position: relative;
+  width: 720px;
+  height: 620px;
+  background: #fff;
+  opacity: 95%;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+.container img{
+  position: absolute;
+  width: 250px;
+  margin-left: 180px;
+}
+#laki{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 260px;
+  margin-left: 50px;
+}
+#dan{
+  width: 70px;
+  margin-top: 340px;
+  margin-left: 270px;
+}
+#perempuan{
+  width: 350px;
+  margin-top: 400px;
+  margin-left: 270px;
+}
